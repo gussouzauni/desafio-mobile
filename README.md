@@ -1,31 +1,32 @@
-# Teste Mobile
+# Challenge
 
-## Instruções
+## About
 
- - Faça um fork deste projeto
- - Crie seu projeto a partir deste fork
- - Use mensagens de commits claras, coesas e que deixem claro a linha do tempo e evolução do código. 
- - Ao Finalizar mande um merge request para o repo principal com instruções para rodar e gerar os binários
+- Prototype of the challenge proposed by the company
 
-## Requerimentos
- 
- - O app deve ser escrito preferencialmente usando Flutter (https://flutter.dev/).
- - Faça uso de boas práticas de desenvolvimento
- - Use conceitos de componentização e reaproveitamento
- - Crie um fluxo de compra mínimo: O aplicativo deve ser capaz de navegar entre as telas (Home, Página de Produto e Carrinho Lateral)
- - Ao tocar em adicionar um produto ao carrinho. o item deve ser adicionado ao carrinho e a tela do carrinho deve serm mostrada com a informação atualizada
+### Packages
 
+```
+  - flutter_svg
+  - flutter_mobx
+  - mobx_codegen
+  - build_runner
+  - badges
+```
 
-## Desejável
- 
- - Possuir algum teste unitário ou e2e
- - Documentação
+### Screenshots
 
-## Design
+<p align="center">
+  <img width="420" height="869" src="https://github.com/gussouzauni/desafio-mobile/blob/master/challenge/screenshots/screen1.png">
+  <img width="420" height="869" src="https://github.com/gussouzauni/desafio-mobile/blob/master/challenge/screenshots/screen2.png">
+  <img width="420" height="869" src="https://github.com/gussouzauni/desafio-mobile/blob/master/challenge/screenshots/screen3.png">
+  <img width="420" height="869" src="https://github.com/gussouzauni/desafio-mobile/blob/master/challenge/screenshots/screen4.png">
+</p>
 
- - Link Adobe XD (https://xd.adobe.com/view/e1881f99-b431-43bc-6e6d-aab53f5b5217-97b9/)
+### Installing
 
-## Bonus
- - Faça chamadas de API usando algum serviço de mock 
- - Persistencia: Ao fechar o aplicativo os produtos devem permaneer no carrinho
- - Fazer uso de algum state manegement (https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
+- flutter run
+
+```
+Prototype
+```
